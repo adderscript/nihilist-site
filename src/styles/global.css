@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+    --color-background: #1f1f29;
+    --color-background-secondary: #413a42;
+
+    --color-text: #eaf0d8;
+    --color-text-muted: #96a2b3;
+
+    --color-accent: #596070;}
+
+body {
+    @apply p-3 bg-background text-text;
+}

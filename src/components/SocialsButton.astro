@@ -1,0 +1,16 @@
+---
+interface Props {
+    name: string;
+    link: string;
+    icon: string;
+}
+
+const { name, link, icon } = Astro.props as Props;
+---
+
+<a href={link} class="flex justify-between gap-2 px-6 py-3 bg-background-secondary
+    rounded-md text-text-secondary font-bold hover:text-text-primary"
+>
+    <img src={icon} alt="icon" class="w-6 h-6" />
+    {name}
+</button>
