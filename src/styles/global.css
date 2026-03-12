@@ -7,7 +7,15 @@
     --color-text: #eaf0d8;
     --color-text-muted: #96a2b3;
 
-    --color-accent: #596070;}
+    --color-accent: #596070;
+
+    --font-sans: CascadiaMono, monospace;
+}
+
+@font-face {
+    font-family: "CascadiaMono";
+    src: url("/fonts/CascadiaMono.ttf") format("truetype");
+}
 
 body {
     @apply p-3 bg-background text-text;
